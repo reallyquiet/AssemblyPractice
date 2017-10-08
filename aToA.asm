@@ -6,7 +6,7 @@ data segment
 data ends
 
 code segment
-start:mov ax, data
+  start:mov ax, data
 	mov ds, ax
 
 	mov bx, 0; ds:bx => 'BaSiC'的第一个字母
